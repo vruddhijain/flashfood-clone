@@ -1,0 +1,357 @@
+/* Header.css */
+
+/* Sticky navbar */
+
+.navbar {
+  transition: background-color 0.3s ease;
+  margin: 0;
+  padding: 0;
+   /* Add a transition for smooth effect */
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  opacity: 0.6;
+}
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999; /* Set a higher z-index value if necessary to ensure it appears above other elements */
+  background-color: rgba(59, 68, 235, 0.2); /* Add a background color for the sticky header */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for the sticky header */
+}
+.navbar {
+    position: sticky;
+    top: 0;
+  }
+  
+  /* Background color */
+  .container-fluid {
+    background-color: #4035db;
+    width: 100%; /* Replace with your desired purplish blue color */
+    height: 100px;
+    opacity: 1;
+  }
+  
+  /* Bold white text */
+  .navbar,
+  .navbar .navbar-nav .nav-link,
+  .navbar .dropdown-menu a {
+    font-weight: bold;
+    color: white;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    color: white;
+    position: relative;
+  }
+  
+  /* Remove link underlines */
+  .navbar .navbar-brand,
+  .navbar .navbar-nav .nav-link {
+    text-decoration: none;
+  }
+  .dropdown-menu {
+    background-color: #4035db;
+  }
+  
+  /* Center the entire content */
+  .navbar .container-fluid {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    /* Your other CSS properties for the link */
+    cursor: pointer; /* Add this property to show pointer on hover */
+  }
+  
+  /* Rounded rectangle button style */
+  .btn-outline-success {
+    border-radius: 10px; /* Adjust the value to control the level of roundness */
+    padding: 10px 20px;
+    background-color: aqua;
+    color: #0a2084;
+    outline: none;
+    font-weight: bold; /* Add bold font weight */
+    box-shadow: 0 4px 4px rgba(21, 22, 23, 0.7);;
+    border: none; /* Remove the default outline */
+    
+  }
+  
+  .btn-outline-success:focus,
+  .btn-outline-success:active {
+    box-shadow: 0 4px 10px rgba(21, 22, 23, 0.7); /* Keep the box-shadow on focus and active */
+    background-color: aqua; /* Keep the background color on focus and active */
+    color: #0830e0; /* Keep the text color on focus and active */
+    
+  }
+
+  .parent{
+    align-items: center;
+    width: 1200px;
+    height: 1600px;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow:
+    -5px -5px 5px rgba(152, 147, 147, 0.3), /* Top shadow */
+    5px -5px 5px rgba(152, 147, 147, 0.3),  /* Right shadow */
+    -5px 5px 5px rgba(152, 147, 147, 0.3),  /* Bottom shadow */
+    5px 5px 5px rgba(152, 147, 147, 0.3); 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  
+  .div1{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #f1f0ff;
+    width: 1100px;
+    height: 500px;
+    margin-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .pic1 {
+    border-radius: 20px;
+   }
+
+   .pic2, .pic3{
+    margin-top: 15px;
+    margin-left: 15px;
+   }
+
+  .text1{
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 200px;
+  }
+  .text1 h2, .text2 h2{
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .text1 ul{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-left: 60px;
+  }
+  .text2 p, .text3 p{
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 25px;
+  }
+    
+  .div2{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #e6e4ff;
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .text2 h2 , .text3 h2{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .text2{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+  
+  .text3{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .div3{
+    
+    margin-right: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+    display: flex;
+    background-color: #f1f0ff;
+    width: 1100px;
+    height: 300px;
+    margin-top: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .locs1{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    height: 600px;
+    width: 1200px;
+    
+    
+    
+    box-shadow:
+    -5px -5px 5px rgba(152, 147, 147, 0.3), /* Top shadow */
+    5px -5px 5px rgba(152, 147, 147, 0.3),  /* Right shadow */
+    -5px 5px 5px rgba(152, 147, 147, 0.3),  /* Bottom shadow */
+    5px 5px 5px rgba(152, 147, 147, 0.3); 
+
+
+  }
+
+  .locs1 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    height: 600px;
+    width: 1200px;
+    position: relative;
+    border-radius: 20px;
+    background-color: #dad8f1; /* Set your desired main background color here */
+    overflow: hidden; /* Clip the wavy pattern to fit inside the div */
+    
+  }
+  
+
+
+  .locations{
+    display: flex;
+    justify-content:space-around;
+    
+    height: 400px;
+    width: 1000px;
+  }
+  .loc{
+    height: 500px;
+    margin-right: -50px;
+    margin-left: 100px;
+    width: 500px;
+    height: 500px;
+
+  }
+  .form{
+    margin-left: 60px;
+    margin-top: 2px;
+    width: 500px;
+    height: 450px;
+    background-color: white;
+
+  }
+
+  .story{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    height: 4000px;
+    width: 1200px;
+    position: relative;
+    border-radius: 20px;
+    background-color: white; /* Set your desired main background color here */
+    overflow: hidden;
+    justify-content: space-between;
+    box-shadow:
+    -5px -5px 5px rgba(152, 147, 147, 0.3), /* Top shadow */
+    5px -5px 5px rgba(152, 147, 147, 0.3),  /* Right shadow */
+    -5px 5px 5px rgba(152, 147, 147, 0.3),  /* Bottom shadow */
+    5px 5px 5px rgba(152, 147, 147, 0.3); 
+
+  }
+
+  .stortext{
+    background-image: url("./bgstor.png");
+    margin-top: 50px;
+    height: 300px;
+    text-align: center;
+   
+  }
+
+  .storimg{
+    margin-top: 100px;
+    align-items: center;
+  }
+
+  .partner{
+    align-items: center;
+    background-color: #dad8f1;
+
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    height: 1000px;
+    
+    border-radius: 20px;
+    ; /* Set your desired main background color here */
+   
+   
+    box-shadow:
+    -5px -5px 5px rgba(152, 147, 147, 0.3), /* Top shadow */
+    5px -5px 5px rgba(152, 147, 147, 0.3),  /* Right shadow */
+    -5px 5px 5px rgba(152, 147, 147, 0.3),  /* Bottom shadow */
+    5px 5px 5px rgba(152, 147, 147, 0.3); 
+
+
+  }
+
+  .sup1{
+    
+    background-color: #4035db;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+   
+    height: 600px;
+    width: 1200px;
+    border-radius: 20px;
+    
+    color: white;
+    box-shadow:
+    -5px -5px 5px rgba(152, 147, 147, 0.3), /* Top shadow */
+    5px -5px 5px rgba(152, 147, 147, 0.3),  /* Right shadow */
+    -5px 5px 5px rgba(152, 147, 147, 0.3),  /* Bottom shadow */
+    5px 5px 5px rgba(152, 147, 147, 0.3); 
+
+
+  }
+
+  .sup{
+    display: flex;
+    justify-content: space-between;
+    
+
+  }
+
+
+
+  
+  .buttonreq{
+    font-size: 24px;
+    padding: 30px 20px;
+    background: #e9e7ff;
+    color: rgb(11, 11, 11);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Style for the button when hovered */
+  
+  .buttonreq.hover{
+    background: #f0f7ff;
+    
+  }
